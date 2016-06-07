@@ -17,7 +17,7 @@ var LoginButton = React.createClass({
       Something
     </Button>
   };
-})
+});
 
 ReactDOM.render(
   <HomePage/>,
