@@ -21,7 +21,7 @@ var LoginButton = React.createClass({
         Login With Facebook
       </Button>
     );
-  };
+  }
 });
 
 ReactDOM.render(
