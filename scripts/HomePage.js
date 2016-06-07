@@ -12,10 +12,15 @@ var HomePage = React.createClass({
 });
 
 var LoginButton = React.createClass({
+  onLoginClicked: function() {
+    // TODO
+  },
   render: function() {
-    <Button bsStyle="success" bsSize="small" onClick={someCallback}>
-      Something
-    </Button>
+    return (
+      <Button bsStyle="success" bsSize="small" onClick={this.onLoginClicked}>
+        Login With Facebook
+      </Button>
+    );
   };
 });
 
