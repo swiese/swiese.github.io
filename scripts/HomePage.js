@@ -15,9 +15,8 @@ var LoginButton = React.createClass({
   },
   render: function() {
     return (
-      <Button bsStyle="success" bsSize="small" onClick={this.onLoginClicked}>
-        Login With Facebook
-      </Button>
+      <button type="button" onClick={this.onLoginClicked}>Log in
+      </button>
     );
   }
 });
