@@ -3,7 +3,7 @@ var HomePage = React.createClass({
     return (
       <div className="container">
         <h1>Test App</h1>
-
+        <LoginButton />
       </div>
     );
   }
