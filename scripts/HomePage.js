@@ -13,7 +13,7 @@ var HomePage = React.createClass({
 
 var LoginButton = React.createClass({
   onLoginClicked: function() {
-    // TODO
+    FBPlatform.showLoginDialog();
   },
   render: function() {
     return (
