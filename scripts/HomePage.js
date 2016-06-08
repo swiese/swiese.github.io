@@ -1,5 +1,3 @@
-import Button from 'react-bootstrap/lib/Button';
-
 var HomePage = React.createClass({
   render: function() {
     return (
