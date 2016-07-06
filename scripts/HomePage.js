@@ -11,6 +11,12 @@ var HomePage = React.createClass({
 
 var LoginButton = React.createClass({
   onLoginClicked: function() {
+    MessengerExtensions.requestUserInfoField(function() {
+			  alert("here");
+			});
+		});
+    
+    
     FBPlatform.showLoginDialog();
   },
   render: function() {
