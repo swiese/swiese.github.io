@@ -14,8 +14,6 @@ var LoginButton = React.createClass({
     MessengerExtensions.requestUserInfoField(function() {
 			  alert("here");
 			});
-		});
-    
     
     FBPlatform.showLoginDialog();
   },
